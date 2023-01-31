@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerWaiter {
+  height: 100vh;
+  width: 100vw;
+  /* display: flex;
+  flex-direction: column; */
+  background-image: url("../images/background.jpg");
+  /* align-items: center; */
+}
+
+.orderWaiter {
+  font-weight: bolder;
+  color: black;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+#containerOrders {
+  display: flex;
+}
+
+.titleOrders {
+  display: flex;
+  justify-content: center;
+}
+
+.titleMenu {
+  display: flex ;
+  justify-content: center;
+  color: black;
+}
+
+.label {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.InputOrders {
+  height: 2em;
+  width: 5cm;
+  display: flex;
+}
+
+article {
+  color: #fff;
+  font-weight: bold;
+  background-color: #535152;
+  font-size: 12px;
+  border-radius: 25%;
+  width: 99px;
+  height: 75px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+article:hover {
+  background-color: rgba(255, 255, 255, 0.781);
+  color: black;
+  font-weight: bold;
+}
+
+.menu {
+  background: linear-gradient(
+    256deg,
+    rgba(255, 222, 89, 1) 20%,
+    rgba(254, 170, 70, 1) 53%
+  );
+  width: 20rem;
+  padding: 2%;
+}
+
+.sectionMenu {
+  display: flex; 
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-around;
+  margin: 50px;
+}
+
+ .btnSectionFilter {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnBreakfast,
+.btnLunch {
+  display:flex; 
+  background-color: #ffde59;
+  height: 9vh;
+  width: 18vw;
+  font-weight: bolder;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  margin: 10px;
+}
+.buttonsOrder {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .sectionMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+  }
+  .menu{
+    margin:20px; 
+  }
+  
+ .btnSectionFilter {
+  display: flex;
+  flex-direction: row;
+}
+
+  .btnBreakfast,
+  .btnLunch {
+    height: 7vh;
+    width: 26vw;
+  }
+
+}

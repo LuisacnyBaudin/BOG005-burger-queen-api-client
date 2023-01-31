@@ -1,0 +1,57 @@
+.modal{
+    background-color: rgba(0,0,0,.75);
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-open{
+    display: flex;
+}
+
+.formModal{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffde59;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.closeModal{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 2em;
+    width: 2em;
+    border-radius: 5%;
+}
+
+.formModal > input{
+    height: 2em;
+    width: 6cm;
+    margin-top: -20px;
+    border-radius: 6%;
+    border: none;
+    background-color: rgb(185, 181, 181)
+}
+
+button{
+    height: 2em;
+    width: 4rem;
+    border-radius: 5%;
+    border: none;
+    background-color: azure;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
